@@ -1,0 +1,93 @@
+header {
+    background-color: rgb(147, 238, 238);
+    text-align: center;
+    color: rgb(12, 21, 152);
+    line-height: 20%;
+    padding: 20px;
+}
+
+p {
+    color: rgb(226, 43, 43);
+}
+
+section {
+    font-size: larger;
+}
+
+
+.alkatra-<uniquifier> {
+  font-family: "Alkatra", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+p {
+    color: black;
+    font-family: "Alkatra", system-ui;
+}
+
+ h2{
+    font-size: x-large;
+    font-family: "Kalnia Glaze", serif;
+ }
+
+ 
+.kalnia-glaze-<uniquifier> {
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 5px 2px grey;
+}
+
+ img:hover {
+    transform: scale(1.03);
+ }
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+body {
+    line-height: 20px;
+    background-color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: black;
+}
+
+
+li {
+    font-size: medium;
+    color: rgb(6, 6, 146);
+}
+ 
+.material-symbols-outlined {
+  color: blueviolet;
+}
+
+a {
+    color: rgb(3, 138, 8);
+}
+
+a:hover {
+    color: rgb(219, 11, 11);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-decoration: underline;
+}
+
+
+ footer {
+    font-weight: 400;
+ }
